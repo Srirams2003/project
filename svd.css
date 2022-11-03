@@ -1,0 +1,38 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    width: 30%;
+    left: 0;
+    
+    background-image:url( "h.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+   
+  }
+  .font
+  {
+    background-color: rgba(204, 254, 203, 0.676);
+   
+  }
+  /* Control the right side */
+  .right {
+  
+    width: 70%;
+    right: 0;
+    
+    background-image:url( "l.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
